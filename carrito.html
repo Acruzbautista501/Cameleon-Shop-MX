@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- Las 3 metaetiquetas anteriores * deben * ir primero en la cabeza; cualquier otro contenido principal debe venir * después * de estas etiquetas -->
+
+		<link href="img/camaleon-icon.ico" rel="icon">
+
+		<title>Camaleón Shop MX | Carrito</title> <!--Título de la página principal-->
+
+		<!-- Google font: Letra fuente de la página principal-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap: Framework utilizado para que el sitio web sea responisivo -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick: Archivos CSS que estilizan a la pagina principal-->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider: Archivo CSS que contiene el estilo deslizar a la página principal -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon: Archivo CSS que estiliza los icónos utilizados en la página principal -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet: Archivo CSS que estiliza a todo el sitio web -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/> 
+
+    </head>
+	<body>
+		<header> <!-- ENCABEZADO DE LA PÁGINA PRINCIPAL -->
+			<!-- ENCABEZADO SUPERIOR -->
+			<div id="top-header"> <!--Inicio del contenido del Encabezado Superior-->
+				<div class="container"> <!-- La clase contenedor, incluye el contenido del Encabezado Superior -->
+					<ul class="header-links pull-left"> <!-- Clase que coloca a la izquierda los contactos del negocio en el encabezado superior -->
+						<!-- Clase que contiene el número telefónico del negocio-->
+						<li><a><i class="fa fa-phone"></i> +52-768-103-69-57</a></li> 
+						<!-- Clase que contiene el Correo Electrónico del negocio-->
+						<li><a><i class="fa fa-envelope-o"></i> camaleonshopmx@gmail.com</a></li> 
+					</ul>
+					<ul class="header-links pull-right"> <!-- Clase que coloca a la derecha la cuenta del usuario y la moneda en que se va a pagar -->
+						<!-- Clase que contiene la cuenta del usuario del sitio web-->
+						<li><a href="login.html"><i class="fa fa-user"></i> Iniciar Sesión</a></li>
+						<li>|</li>
+						<li><a href="registro.html"><i class="fa fa-user-plus"></i> Registrar Cuenta</a></li>
+					</ul>
+				</div>
+			</div><!--Final del contenido del Encabezado Superior-->
+			<!-- /ENCABEZADO SUPERIOR-->
+
+			<!-- ENCABEZADO PRINCIPAL -->
+			<div id="main-header"> <!--Inicio del contenido del Encabezado Principa<l-->
+				<div class="container"> <!-- La clase contenedor, incluye el contenido del Encabezado Principal -->
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="index.html" class="logo">
+									<img src="./img/Logo 2.png" width="170" height="98" />
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- BARRA DE BUSCADOR -->
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">Todas las Categorías</option>
+										<option value="1">Laptops</option>
+										<option value="1">Smartphones</option>
+										<option value="1">Camaras</option>
+										<option value="1">Accesorios</option>
+									</select>
+									<input class="input" placeholder="Busca aquí">
+									<button class="search-btn">Buscar</button>
+								</form>
+							</div>
+						</div>
+						<!-- /BARRA DE BUSCADOR -->
+
+						<!-- CUENTA -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<!-- Carrito -->
+								<div class="dropdown">
+									<a href="carrito.html" class="dropdown-toggle" >
+										<i class="fa fa-shopping-cart"></i>
+										<span>Carrito de Compra</span>
+										<div class="qty">3</div>
+									</a>
+								</div>
+								<!-- /Carrito -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menú</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /CUENTA -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="mejoresofertas.html">Las mejores ofertas</a></li>
+						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Categorías
+							</a>
+							<div class="dropdown-menu">
+								<div class="agile_inner_drop_nav_info p-4">
+									<div class="agile_inner_drop_nav_info p-4">
+										<h5 class="mb-3">Todas las categorías</h5>
+										<div class="row">
+											<div class="col-sm-6 multi-gd-img">
+												<ul class="multi-column-dropdown">
+												<li>
+													<a>Laptops</a>
+												</li>
+												<li>
+													<a>Smartphones</a>
+												</li>
+												<li>
+													<a>Camaras</a>
+												</li>
+												<li>
+													<a>Accesorios</a>
+												</li>
+												<li>
+											</ul>
+										</div>
+						<li><a href="laptops.html">Laptops</a></li>
+						<li><a href="smartphones.html">Smartphones</a></li>
+						<li><a href="camaras.html">Camaras</a></li>
+						<li><a href="accesorios.html">Accesorios</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="breadcrumb-header">Carrito</h3>
+						<ul class="breadcrumb-tree">
+							<li><a href="#">Inicio</a></li>
+							<li class="active">Carrito</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+
+		<div class="section">
+			<!-- container -->
+			<div class="container-checkout">
+				<!-- row -->
+				<div class="row">
+					<!-- Order Details -->
+					<div class="col-md-12 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Su pedido</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>PRODUCTO</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1x Nombre del producto</div>
+									<div>$980.00</div>
+								</div>
+								<div class="order-col">
+									<div>2x Nombre del producto</div>
+									<div>$980.00</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Envío</div>
+								<div><strong>Gratis</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOTAL</strong></div>
+								<div><strong class="order-total">$2940.00</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Transferencia bancaria
+								</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									Deposito Bancario
+								</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Paypal
+								</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								He leído y acepto los <a href="#">términos y condiciones</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Realizar pedido</a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+
+		<!-- /SECTION -->
+
+		<!-- NEWSLETTER -->
+		<div id="newsletter" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>Regístrate para el <strong>BOLETÍN INFORMATIVO</strong></p>
+							<form>
+								<input class="input" type="email" placeholder="Introduce tu correo electrónico">
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribete</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /NEWSLETTER -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Contáctanos</h3>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-phone"></i>+52-768-103-69-57</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>camaleonshopmx@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categorías</h3>
+								<ul class="footer-links">
+									<li><a href="#">Las mejores ofertas</a></li>
+									<li><a href="#">Laptops</a></li>
+									<li><a href="#">Smartphones</a></li>
+									<li><a href="#">Camaras</a></li>
+									<li><a href="#">Accesorios</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Información</h3>
+								<ul class="footer-links">
+									<li><a href="#">Nosotros</a></li>
+									<li><a href="#">Contáctenos</a></li>
+									<li><a href="#">Política de privacidad</a></li>
+									<li><a href="#">Pedidos y Devoluciones</a></li>
+									<li><a href="#">Términos y Condiciones</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Servicio</h3>
+								<ul class="footer-links">
+									<li><a href="#">Mi cuenta</a></li>
+									<li><a href="#">Ver Carrito</a></li>
+									<li><a href="#">Lista de Deseos</a></li>
+									<li><a href="#">Seguir mi pedido</a></li>
+									<li><a href="#">Ayuda</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+
+			<!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+							</ul>
+							<span class="copyright">
+								<!-- Derechos de autor -->
+								Derechos de Autor &copy;<script>document.write(new Date().getFullYear());</script> Aldair Cruz Bautista | Todos los derechos reservados</a>
+							<!-- Derechos de autor -->
+							</span>
+						</div>
+					</div>
+						<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
